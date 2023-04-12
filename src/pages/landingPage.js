@@ -2,7 +2,7 @@ import React from 'react'
 import LandingPage from './components/headerLandingPage'
 import ComponentTwo from "./components/headerSecondComponent"
 import ComponentThree from "./components/headerElementThree"
-const App = () => {
+const LandingPage = () => {
   return (
     <div>
       <LandingPage />
@@ -14,4 +14,4 @@ const App = () => {
   )
 }
 
-export default App
+export default LandingPage
