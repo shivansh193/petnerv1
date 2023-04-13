@@ -1,15 +1,13 @@
 import React from 'react'
-import LandingPage from './components/headerLandingPage'
-import ComponentTwo from "./components/headerSecondComponent"
-import ComponentThree from "./components/headerElementThree"
+import Navbar from "./components/navbar"
+import FormCompiled from "./components/formCompiled.js"
+import Form from "./components/form"
 const App = () => {
   return (
     <div>
-      <LandingPage />
-      <ComponentTwo />
-      <ComponentThree imageSrc="https://picsum.photos/50/50"
-  title="Example Title"
-  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum malesuada nisl sit amet ullamcorper." />
+      {/* <Navbar /> */}
+
+      <FormCompiled />
     </div>
   )
 }
