@@ -58,7 +58,7 @@ const Form = () => {
       <FormContainer onSubmit={handleFormSubmit}>
         <FormField>
           <FormControl variant="outlined" fullWidth>
-            <InputLabel id="option-label">Option</InputLabel>
+            <InputLabel id="option-label">Which breed do you want</InputLabel>
             <Select
               labelId="option-label"
               id="option"
